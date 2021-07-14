@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.form-control {
+  border: 0;
+  border-bottom: 2px solid #000;
+  border-radius: 0%;
+}
+
+.form-control:focus {
+  border: 0;
+  box-shadow: none;
+  border-bottom: 5px solid #3498db;
+  border-radius: 0%;
+  padding-top: 5px;
+  transition: 0.5s;
+}
+
+#name {
+  padding-bottom: 10px;
+}
+
+.jumbotron {
+  background: rgb(67, 56, 255);
+  background: linear-gradient(180deg, rgba(67, 56, 255, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+  padding-bottom: 1px;
+}
+
+.text-jumbotron {
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.waves {
+  padding-top: -5px;
+}
+
+#buku {
+  font-size: 50px;
+}
+
+.bi {
+  font-size: 50px;
+}
+
+.btn {
+  background: rgb(0, 212, 255);
+  background: linear-gradient(10deg, rgba(0, 212, 255, 1) 0%, rgba(67, 56, 255, 1) 100%, rgba(9, 9, 121, 1) 100%);
+  color: white;
+  border-radius: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.icon {
+  color: black;
+}
+
+.bi {
+  font-size: 19px;
+  transition: 0.2;
+}
+
+.bi:hover {
+  font-size: 25px;
+  transition: 0.2s;
+  color: black;
+}
+
+.social-media {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+#footer {
+  background: rgb(0, 194, 233);
+  background: linear-gradient(10deg, rgba(0, 194, 233, 1) 0%, rgba(25, 143, 241, 1) 54%, rgba(67, 56, 255, 1) 100%, rgba(9, 9, 121, 1) 100%);
+  padding-bottom: 10px;
+  padding-top: -60px;
+  color: white;
+}
+
+.bi-heart-fill {
+  color: rgb(250, 74, 74);
+  font-size: 22px;
+}
+
+.made {
+  padding-top: 30px;
+  font-size: 22px;
+}
+
+#clockbox {
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.judul-halaman {
+  font-weight: 800;
+  font-size: 50px;
+  padding-top: 23px;
+}
