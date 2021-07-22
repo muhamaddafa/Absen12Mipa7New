@@ -148,12 +148,12 @@
         if (nhour >= 8) {
           $(".alert").addClass("alert-danger");
           $(".alert").removeClass("alert-success");
-          $("#pesannya").html("<strong>Maaf waktu absen sudah habis.</strong> Jangan telat lagi ya XD</i>");
+          $("#pesannya").html("<strong>Halo</strong> " + nama.bold() + ", maaf waktu absen sudah lewat dari waktu yang ditentukan. Jangan telat lagi ngab.");
         } else {
           if (nhour < 7) {
             $(".alert").removeClass("alert-danger");
             $(".alert").addClass("alert-warning");
-            $("#pesannya").html('<strong>Belum waktunya absen hehe</strong> Absen  dimulai jam 7-8 WIB <i class="bi bi-cloud-sun"></i>');
+            $("#pesannya").html("<strong>Selamat Pagi</strong> " + nama.bold() + " ini belum waktunya absen. Absen dimulai dari <strong>jam 7 - 8 WIB ya.</strong>");
           } else {
             $(".alert").addClass("alert-success");
             $(".alert").removeClass("alert-danger");
